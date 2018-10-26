@@ -1,5 +1,5 @@
 {
-    "name"          : "node-red-node-mongodb",
+    "name"          : "node-red-contrib-mongodb",
     "version"       : "0.0.14",
     "description"   : "Node-RED nodes to talk to an Mongo database",
     "dependencies"  : {
@@ -7,18 +7,17 @@
     },
     "repository" : {
         "type":"git",
-        "url":"https://github.com/node-red/node-red-nodes/tree/master/storage/mongodb"
+        "url":"https://github.com/mickev36/node-red-contrib-mongodb"
     },
     "license": "Apache-2.0",
     "keywords": [ "node-red", "mongodb" ],
     "node-red"      : {
         "nodes"     : {
-            "mongo": "66-mongodb.js"
+            "mongo": "mongodb.js"
         }
     },
     "author": {
-        "name": "Dave Conway-Jones",
-        "email": "ceejay@vnet.ibm.com",
-        "url": "http://nodered.org"
+        "name": "Kévin Michelet",
+        "email": "kevinmichelet91@gmail.com"
     }
 }
