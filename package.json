@@ -1,23 +1,31 @@
 {
-    "name"          : "node-red-contrib-mongodb",
-    "version"       : "0.0.14",
-    "description"   : "Node-RED nodes to talk to an Mongo database",
-    "dependencies"  : {
-        "mongodb"   : "^2.2.34"
-    },
-    "repository" : {
-        "type":"git",
-        "url":"https://github.com/mickev36/node-red-contrib-mongodb"
-    },
-    "license": "Apache-2.0",
-    "keywords": [ "node-red", "mongodb" ],
-    "node-red"      : {
-        "nodes"     : {
-            "mongo": "mongodb.js"
-        }
-    },
-    "author": {
-        "name": "Kévin Michelet",
-        "email": "kevinmichelet91@gmail.com"
+  "name": "@mickev/node-red-contrib-mongodb",
+  "version": "0.1.0",
+  "description": "Node-RED nodes to talk to an Mongo database",
+  "dependencies": {
+    "mongodb": "^2.2.34"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mickev36/node-red-contrib-mongodb.git"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "node-red",
+    "mongodb"
+  ],
+  "node-red": {
+    "nodes": {
+      "mongo": "mongodb.js"
     }
+  },
+  "author": "Kévin Michelet <kevinmichelet91@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mickev36/node-red-contrib-mongodb/issues"
+  },
+  "homepage": "https://github.com/mickev36/node-red-contrib-mongodb#readme",
+  "main": "mongodb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
