@@ -1,6 +1,6 @@
 {
   "name": "@mickev/node-red-contrib-mongodb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node-RED nodes to talk to an Mongo database",
   "dependencies": {
     "mongodb": "^2.2.34"
