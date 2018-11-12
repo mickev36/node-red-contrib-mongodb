@@ -175,7 +175,7 @@ module.exports = function(RED) {
 									if (err) {
 										node.error(err, msg)
 									} else {
-										msg.payload = items
+										msg.payload = item
 										node.send(msg)
 									}
 								})
