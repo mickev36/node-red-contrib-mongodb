@@ -10,6 +10,7 @@ module.exports = function(RED) {
 		this.port = n.port
 		this.db = n.db
 		this.name = n.name
+		
 
 		var url = 'mongodb://'
 		if (this.credentials && this.credentials.user && this.credentials.password) {
@@ -43,6 +44,8 @@ module.exports = function(RED) {
 		this.status({ fill: 'grey', shape: 'ring', text: RED._('mongodb.status.connecting') })
 		var node = this
 		var noerror = true
+        this.upsert = n.upsert || false;
+        this.multi = n.multi || false;
 
 		var connectToDB = function() {
 			MongoClient.connect(
